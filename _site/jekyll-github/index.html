@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>無程式經驗，如何在Github用Jekyll建Blog (問題篇） - Study Overload</title>
-<meta name="description" content="本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含我如何參考網路教學文和問題解決的心得。教學步驟文寫看這篇。">
+<!-- begin _includes/seo.html --><title>無程式經驗，如何在Github用Jekyll建Blog (教學篇） - Study Overload</title>
+<meta name="description" content="本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含步驟文和實踐心得。">
 
 
   <meta name="author" content="Irene">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="Taiwan">
 <meta property="og:site_name" content="Study Overload">
-<meta property="og:title" content="無程式經驗，如何在Github用Jekyll建Blog (問題篇）">
-<meta property="og:url" content="http://localhost:4000/start/">
+<meta property="og:title" content="無程式經驗，如何在Github用Jekyll建Blog (教學篇）">
+<meta property="og:url" content="http://localhost:4000/jekyll-github/">
 
 
-  <meta property="og:description" content="本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含我如何參考網路教學文和問題解決的心得。教學步驟文寫看這篇。">
+  <meta property="og:description" content="本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含步驟文和實踐心得。">
 
 
 
@@ -45,7 +45,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/start/">
+<link rel="canonical" href="http://localhost:4000/jekyll-github/">
 
 
 
@@ -251,8 +251,8 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="無程式經驗，如何在Github用Jekyll建Blog (問題篇）">
-    <meta itemprop="description" content="本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含我如何參考網路教學文和問題解決的心得。教學步驟文寫看這篇。">
+    <meta itemprop="headline" content="無程式經驗，如何在Github用Jekyll建Blog (教學篇）">
+    <meta itemprop="description" content="本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含步驟文和實踐心得。">
     <meta itemprop="datePublished" content="2022-05-28T00:00:00+08:00">
     
 
@@ -260,7 +260,7 @@
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/start/" class="u-url" itemprop="url">無程式經驗，如何在Github用Jekyll建Blog (問題篇）
+            <a href="http://localhost:4000/jekyll-github/" class="u-url" itemprop="url">無程式經驗，如何在Github用Jekyll建Blog (教學篇）
 </a>
           </h1>
           
@@ -289,38 +289,17 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含我如何參考網路教學文和問題解決的心得。教學步驟文寫看<a href="https://studyoverload.github.io/jekyll-github">這篇</a>。</p>
+        <p>本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含步驟文和實踐心得。</p>
 
-<h2 id="在開始之前">在開始之前</h2>
-<p>我想在閱讀這篇文章的讀者，大多數已經決定要在 Github 用 Jekyll 建 Blog了，或許你已經讀過一輪 Google 搜尋 排名第一頁的所有文章，或是在做的過程中遇到一些問題。有幾件事情是我希望在開始之前就知道的，可以幫助我有效率的解決途中的 bug，和培養學習心態。</p>
+<h2 id="部落格之始">部落格之始</h2>
+<p>如果你想要建部落格，有滿多人會從現有的部落格平台（痞客邦、Medium）開始，只要註冊就可以開始發布內容了。</p>
 
-<h3 id="參考官方教學指南">參考官方教學指南</h3>
-<p>我知道看原文感覺很麻煩，但這是最貼近開發者思維的方法。由其他工程師撰寫的中文教學文，很多在步驟上和使用的程式碼會不一樣，<strong>因為寫程式沒有標準答案</strong>。當初我先選了一個人的教學跟著做，遇到問題後，我開始搜尋其他人的作法，但這讓我充滿困惑。身為程式初學者，我無法判斷哪些元件要不要安裝，哪些步驟是否適用於我的設置環境，我只知道我的東西跑不出來。</p>
+<p>如果你想要擁有網站的自主權又不想碰太多程式編寫的部分，可以選擇 <a href="https://wordpress.org">Wordpress.org</a> ，眾多外掛任你挑，掌握SEO數據和資料庫。網路上有很多教學文，註冊後購買主機和網域，就建好了。我另一個部落格也是用 Wordpress 建置，有興趣的話，也許之後可以寫教學心得文。</p>
 
-<p>於是我找出 <a href="https://jekyllrb.com/docs/installation">Jeykll 的官方設置文</a>、<a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll">Github相關教學文</a>，以及<a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide">我使用的 Jekyll Theme 設置指南</a>，心想這些開發者要別人使用他們的產品，那當然要有完整的教學文才是，</p>
+<p>如果你想要開始學寫程式，建立自己的 Github Page 是滿好的開始，可以紀錄學習的過程，也能夠<strong>為其他有相似問題的人提供解法</strong>。我個人而言，除了想要練習寫文章、學程式之外，更大的原因是不想花錢買主機和個人網域，就開始了簡單設置個人 Blog 的念頭。其實我連用 Wordpress 架的另一個網站也是用 Github Page 的方式，沒有去買主機。</p>
 
-<h2 id="寫心得筆記">寫心得筆記</h2>
-<p>對於初學者來說，看到一堆程式碼和落落長的英文教學，頭就痛了起來。儘管可以跟著教學文的步驟做，但通常這些都是有經驗的工程師所寫的文章，內容比較簡略，有許多基本的用詞還是需要自己去查的。初學者的優勢在於什麼都不懂，能夠同理一些基礎問題，幫助其他初學者從0開始。舉一個簡單的指令為例：</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>進到本機的 blog 資料夾，執行 bundle
-</code></pre></div></div>
-
-<p>像這樣短短一句話，只要你不知道要如何進到指定的資料夾中，或是執行 bundle 出現錯誤，就有可能卡關很久。他的意思是：</p>
-
-<ol>
-  <li>進入終端機</li>
-  <li>輸入 <code class="language-plaintext highlighter-rouge">cd blog</code></li>
-  <li>就會進入本機名為 blog 的資料夾</li>
-  <li>輸入 <code class="language-plaintext highlighter-rouge">bundle</code></li>
-</ol>
-
-<p>cd: 切換目錄
-   bundle: 輸入 bundle 指令的用意是確保 gems 所安裝的套件是你所需要的，能順利跑出來不會亂掉。
-   出現錯誤的話，如果說有 missing gem 的話，就輸入  <code class="language-plaintext highlighter-rouge">gem install jekyll bundler</code> 安裝。
-`</p>
-
-<p>不瞞你說，我幾乎看完了關於如何用 Jekyll 模板套用在 Github 的中文文章，按照裡面的步驟做，還是滿頭問號，花了至少 8小時在 setting 上面，無法順利跑出程式碼。不知道為什麼，在終端機 (terminal)裡面跑的時候，一直出現錯誤(Error)。於是我把顯示為「錯誤訊息」的內容搜尋一遍，又翻了一堆英文教學和論壇，把每個人的解法複製貼上，一直試到解決為止。</p>
-
-<p>這可以說是最土法煉鋼的方式，因為我不懂終端機的常用指令，也不了解要如何 debug。我就把這些錯誤訊息截圖下來，反覆測試「解除安裝、重新安裝、設定不同版本、在不同路徑下指令」，一個個試這些看不懂的指令，最後找出了規律，順利發布在我的 github.io 頁面。</p>
+<h2 id="jekyll-是什麼">Jekyll 是什麼？</h2>
+<p><a href="https://jekyllrb.com/">Jekyll</a> 是一個簡單的靜態網站生成器 (static site generator)，它是由 <a href="https://zh.wikipedia.org/zh-tw/Ruby">Ruby</a> 編寫而成，將純文本文檔（Markdown, HMTL, CSS) 轉換成靜態網站。他很簡單直觀，適合初學者使用。網路上有滿多參考文章，和佈景主題可以選，跟著步驟做，很快就可以做出來了。最吸引人的地方是，Jekyll 可以和 Github Page 搭配，做出免費美觀的 Blog。</p>
 
         
       </section>
@@ -354,22 +333,22 @@
       <section class="page__share">
   
 
-  <a href="https://twitter.com/intent/tweet?text=%E7%84%A1%E7%A8%8B%E5%BC%8F%E7%B6%93%E9%A9%97%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8Github%E7%94%A8Jekyll%E5%BB%BABlog+%28%E5%95%8F%E9%A1%8C%E7%AF%87%EF%BC%89%20http%3A%2F%2Flocalhost%3A4000%2Fstart%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=%E7%84%A1%E7%A8%8B%E5%BC%8F%E7%B6%93%E9%A9%97%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8Github%E7%94%A8Jekyll%E5%BB%BABlog+%28%E6%95%99%E5%AD%B8%E7%AF%87%EF%BC%89%20http%3A%2F%2Flocalhost%3A4000%2Fjekyll-github%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fstart%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fjekyll-github%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fstart%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fjekyll-github%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="/start/" class="pagination--pager" title="無程式經驗，如何在Github用Jekyll建Blog (問題篇）
+">Previous</a>
     
     
-      <a href="/jekyll-github/" class="pagination--pager" title="無程式經驗，如何在Github用Jekyll建Blog (教學篇）
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -393,7 +372,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/jekyll-github/" rel="permalink">無程式經驗，如何在Github用Jekyll建Blog (教學篇）
+        <a href="/start/" rel="permalink">無程式經驗，如何在Github用Jekyll建Blog (問題篇）
 </a>
       
     </h2>
@@ -418,7 +397,7 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含步驟文和實踐心得。
+    <p class="archive__item-excerpt" itemprop="description">本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含我如何參考網路教學文和問題解決的心得。教學步驟文寫看這篇。
 
 </p>
   </article>

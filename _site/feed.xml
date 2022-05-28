@@ -1,24 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-28T14:51:51+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Site Title</title><subtitle>An amazing website.</subtitle><author><name>Your Name</name></author><entry><title type="html">無程式經驗，如何在Github用Jekyll建Blog (初學者問題解決篇）</title><link href="http://localhost:4000/start/" rel="alternate" type="text/html" title="無程式經驗，如何在Github用Jekyll建Blog (初學者問題解決篇）" /><published>2022-05-28T00:00:00+08:00</published><updated>2022-05-28T00:00:00+08:00</updated><id>http://localhost:4000/start</id><content type="html" xml:base="http://localhost:4000/start/">&lt;p&gt;本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含我如何參考網路教學文和問題解決的心得。&lt;/p&gt;
-
-&lt;h2 id=&quot;部落格之始&quot;&gt;部落格之始&lt;/h2&gt;
-&lt;p&gt;如果你想要建部落格，有滿多人會從現有的部落格平台（痞客邦、Medium）開始，只要註冊就可以開始發布內容了。&lt;/p&gt;
-
-&lt;p&gt;如果你想要擁有網站的自主權又不想碰太多程式編寫的部分，可以選擇 &lt;a href=&quot;https://wordpress.org&quot;&gt;Wordpress.org&lt;/a&gt; ，眾多外掛任你挑，掌握SEO數據和資料庫。網路上有很多教學文，註冊後購買主機和網域，就建好了。我另一個部落格也是用 Wordpress 建置，有興趣的話，也許之後可以寫教學心得文。&lt;/p&gt;
-
-&lt;p&gt;如果你想要開始學寫程式，建立自己的 Github Page 是滿好的開始，可以紀錄學習的過程，也能夠&lt;strong&gt;為其他有相似問題的人提供解法&lt;/strong&gt;。我個人而言，除了想要練習寫文章、學程式之外，更大的原因是不想花錢買主機和個人網域，就開始了簡單設置個人 Blog 的念頭。其實我連用 Wordpress 架的另一個網站也是用 Github Page 的方式，沒有去買主機。&lt;/p&gt;
-
-&lt;h2 id=&quot;jekyll-是什麼&quot;&gt;Jekyll 是什麼？&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; 是一個簡單的靜態網站生成器 (static site generator)，它是由 &lt;a href=&quot;https://zh.wikipedia.org/zh-tw/Ruby&quot;&gt;Ruby&lt;/a&gt; 編寫而成，將純文本文檔（Markdown, HMTL, CSS) 轉換成靜態網站。他很簡單直觀，適合初學者使用。網路上有滿多參考文章，和佈景主題可以選，跟著步驟做，很快就可以做出來了。最吸引人的地方是，Jekyll 可以和 Github Page 搭配，做出免費美觀的 Blog。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-28T17:13:12+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Study Overload</title><subtitle>learning Jekyll and Github</subtitle><author><name>Irene</name></author><entry><title type="html">無程式經驗，如何在Github用Jekyll建Blog (問題篇）</title><link href="http://localhost:4000/start/" rel="alternate" type="text/html" title="無程式經驗，如何在Github用Jekyll建Blog (問題篇）" /><published>2022-05-28T00:00:00+08:00</published><updated>2022-05-28T00:00:00+08:00</updated><id>http://localhost:4000/start</id><content type="html" xml:base="http://localhost:4000/start/">&lt;p&gt;本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含我如何參考網路教學文和問題解決的心得。教學步驟文寫看&lt;a href=&quot;https://studyoverload.github.io/jekyll-github&quot;&gt;這篇&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h2 id=&quot;在開始之前&quot;&gt;在開始之前&lt;/h2&gt;
 &lt;p&gt;我想在閱讀這篇文章的讀者，大多數已經決定要在 Github 用 Jekyll 建 Blog了，或許你已經讀過一輪 Google 搜尋 排名第一頁的所有文章，或是在做的過程中遇到一些問題。有幾件事情是我希望在開始之前就知道的，可以幫助我有效率的解決途中的 bug，和培養學習心態。&lt;/p&gt;
 
 &lt;h3 id=&quot;參考官方教學指南&quot;&gt;參考官方教學指南&lt;/h3&gt;
-&lt;p&gt;我知道看原文感覺很麻煩，但這會是一個清楚直觀的方法。由其他工程師撰寫的中文教學文，很多在步驟上和使用的程式碼會不一樣，&lt;strong&gt;因為寫程式沒有標準答案&lt;/strong&gt;。當初我先選了一個人的教學跟著做，遇到問題後，我開始搜尋其他人的作法，但這讓我充滿困惑。身為程式初學者，我無法判斷哪些元件要不要安裝，哪些步驟是否適用於我的設置環境，我只知道我的東西跑不出來。&lt;/p&gt;
+&lt;p&gt;我知道看原文感覺很麻煩，但這是最貼近開發者思維的方法。由其他工程師撰寫的中文教學文，很多在步驟上和使用的程式碼會不一樣，&lt;strong&gt;因為寫程式沒有標準答案&lt;/strong&gt;。當初我先選了一個人的教學跟著做，遇到問題後，我開始搜尋其他人的作法，但這讓我充滿困惑。身為程式初學者，我無法判斷哪些元件要不要安裝，哪些步驟是否適用於我的設置環境，我只知道我的東西跑不出來。&lt;/p&gt;
 
 &lt;p&gt;於是我找出 &lt;a href=&quot;https://jekyllrb.com/docs/installation&quot;&gt;Jeykll 的官方設置文&lt;/a&gt;、&lt;a href=&quot;https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll&quot;&gt;Github相關教學文&lt;/a&gt;，以及&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide&quot;&gt;我使用的 Jekyll Theme 設置指南&lt;/a&gt;，心想這些開發者要別人使用他們的產品，那當然要有完整的教學文才是，&lt;/p&gt;
 
-&lt;h3 id=&quot;寫心得筆記&quot;&gt;寫心得筆記&lt;/h3&gt;
+&lt;h2 id=&quot;寫心得筆記&quot;&gt;寫心得筆記&lt;/h2&gt;
 &lt;p&gt;對於初學者來說，看到一堆程式碼和落落長的英文教學，頭就痛了起來。儘管可以跟著教學文的步驟做，但通常這些都是有經驗的工程師所寫的文章，內容比較簡略，有許多基本的用詞還是需要自己去查的。初學者的優勢在於什麼都不懂，能夠同理一些基礎問題，幫助其他初學者從0開始。舉一個簡單的指令為例：&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;進到本機的 blog 資料夾，執行 bundle
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -39,4 +29,14 @@
 
 &lt;p&gt;不瞞你說，我幾乎看完了關於如何用 Jekyll 模板套用在 Github 的中文文章，按照裡面的步驟做，還是滿頭問號，花了至少 8小時在 setting 上面，無法順利跑出程式碼。不知道為什麼，在終端機 (terminal)裡面跑的時候，一直出現錯誤(Error)。於是我把顯示為「錯誤訊息」的內容搜尋一遍，又翻了一堆英文教學和論壇，把每個人的解法複製貼上，一直試到解決為止。&lt;/p&gt;
 
-&lt;p&gt;這可以說是最土法煉鋼的方式，因為我不懂終端機的常用指令，也不了解要如何 debug。我就把這些錯誤訊息截圖下來，反覆測試「解除安裝、重新安裝、設定不同版本、在不同路徑下指令」，一個個試這些看不懂的指令，最後找出了規律，順利發布在我的 github.io 頁面。&lt;/p&gt;</content><author><name>Your Name</name></author><category term="blog" /><summary type="html">本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含我如何參考網路教學文和問題解決的心得。</summary></entry></feed>
+&lt;p&gt;這可以說是最土法煉鋼的方式，因為我不懂終端機的常用指令，也不了解要如何 debug。我就把這些錯誤訊息截圖下來，反覆測試「解除安裝、重新安裝、設定不同版本、在不同路徑下指令」，一個個試這些看不懂的指令，最後找出了規律，順利發布在我的 github.io 頁面。&lt;/p&gt;</content><author><name>Irene</name></author><category term="blog" /><summary type="html">本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含我如何參考網路教學文和問題解決的心得。教學步驟文寫看這篇。</summary></entry><entry><title type="html">無程式經驗，如何在Github用Jekyll建Blog (教學篇）</title><link href="http://localhost:4000/jekyll-github/" rel="alternate" type="text/html" title="無程式經驗，如何在Github用Jekyll建Blog (教學篇）" /><published>2022-05-28T00:00:00+08:00</published><updated>2022-05-28T00:00:00+08:00</updated><id>http://localhost:4000/jekyll-github</id><content type="html" xml:base="http://localhost:4000/jekyll-github/">&lt;p&gt;本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含步驟文和實踐心得。&lt;/p&gt;
+
+&lt;h2 id=&quot;部落格之始&quot;&gt;部落格之始&lt;/h2&gt;
+&lt;p&gt;如果你想要建部落格，有滿多人會從現有的部落格平台（痞客邦、Medium）開始，只要註冊就可以開始發布內容了。&lt;/p&gt;
+
+&lt;p&gt;如果你想要擁有網站的自主權又不想碰太多程式編寫的部分，可以選擇 &lt;a href=&quot;https://wordpress.org&quot;&gt;Wordpress.org&lt;/a&gt; ，眾多外掛任你挑，掌握SEO數據和資料庫。網路上有很多教學文，註冊後購買主機和網域，就建好了。我另一個部落格也是用 Wordpress 建置，有興趣的話，也許之後可以寫教學心得文。&lt;/p&gt;
+
+&lt;p&gt;如果你想要開始學寫程式，建立自己的 Github Page 是滿好的開始，可以紀錄學習的過程，也能夠&lt;strong&gt;為其他有相似問題的人提供解法&lt;/strong&gt;。我個人而言，除了想要練習寫文章、學程式之外，更大的原因是不想花錢買主機和個人網域，就開始了簡單設置個人 Blog 的念頭。其實我連用 Wordpress 架的另一個網站也是用 Github Page 的方式，沒有去買主機。&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-是什麼&quot;&gt;Jekyll 是什麼？&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; 是一個簡單的靜態網站生成器 (static site generator)，它是由 &lt;a href=&quot;https://zh.wikipedia.org/zh-tw/Ruby&quot;&gt;Ruby&lt;/a&gt; 編寫而成，將純文本文檔（Markdown, HMTL, CSS) 轉換成靜態網站。他很簡單直觀，適合初學者使用。網路上有滿多參考文章，和佈景主題可以選，跟著步驟做，很快就可以做出來了。最吸引人的地方是，Jekyll 可以和 Github Page 搭配，做出免費美觀的 Blog。&lt;/p&gt;</content><author><name>Irene</name></author><category term="blog" /><summary type="html">本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含步驟文和實踐心得。</summary></entry></feed>
