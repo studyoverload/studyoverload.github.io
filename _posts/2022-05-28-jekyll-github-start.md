@@ -49,7 +49,7 @@ tags:
    `cd`: 切換目錄
 
    `bundle`: 輸入 bundle 指令的用意是確保 gems 所安裝的套件是你所需要的，能順利跑出來不會亂掉。
-   出現錯誤的話，如果說有 missing gem 的話，就輸入  `gem install jekyll bundler` 安裝。
+   出現錯誤的話，像是 `missing gem` ，就輸入  `gem install jekyll bundler` 安裝。
 
 不瞞你說，我幾乎看完了關於如何用 Jekyll 模板套用在 Github 的中文文章，按照裡面的步驟做，還是滿頭問號，花了至少 8小時在 setting 上面，無法順利跑出程式碼。不知道為什麼，在終端機  (terminal) 裡面跑的時候，一直出現錯誤 (Error)。於是我把顯示為「錯誤訊息」的內容搜尋一遍，又翻了一堆英文教學和論壇，把每個人的解法複製貼上，一直試到解決為止。
 
