@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-#theme                    : "minimal-mistakes-jekyll"
-remote_theme           : "studyoverload/studyoverload.github.io@main"
+#theme                   : "minimal-mistakes-jekyll"
+remote_theme             : "studyoverload/studyoverload.github.io@main"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -20,7 +20,7 @@ title                    : "Study Overload"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Irene"
-description              : "learning Jekyll and Github"
+description              : "Gotta start somewhere. Learning Jekyll and Github."
 url                      : # the base hostname & protocol for your site e.g. "https://studyoverload.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Irene"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "learning Jeykll and Github"
+  bio              : "Gotta start somewhere. learning Jeykll and Github."
   location         : "Taiwan"
   email            :
   links:
@@ -285,6 +285,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
