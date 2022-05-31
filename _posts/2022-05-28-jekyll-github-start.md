@@ -7,7 +7,9 @@ tags:
  - Jekyll
 ---
 
-本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含我如何參考網路教學文和問題解決的心得。教學步驟文請看[這篇](https://studyoverload.github.io/jekyll-github)。
+本文寫給毫無程式經驗，想要用 Jekyll 在 Github 建 Blog 的新手，內含我如何參考網路教學文和問題解決的心得。
+
+教學步驟文請看[這篇](https://studyoverload.github.io/jekyll-github)。
 
 ## 在開始之前
 我想在閱讀這篇文章的讀者，大多數已經決定要在 Github 用 Jekyll 建 Blog了，或許你已經讀過一輪 Google 搜尋 排名第一頁的所有文章，或是在做的過程中遇到一些問題。有幾件事情是我希望在開始之前就知道的，可以幫助我有效率的解決途中的 bug，和培養學習心態。
