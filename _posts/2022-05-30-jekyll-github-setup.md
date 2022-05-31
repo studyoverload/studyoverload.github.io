@@ -1,5 +1,5 @@
 ---
-title: "無程式經驗，如何在Github用Jekyll建Blog (教學篇）"
+title: "無程式經驗，如何在Github用Jekyll建Blog (設置篇）"
 date: 2022-05-28
 
 tags:
@@ -16,3 +16,8 @@ tags:
 
 ## Jekyll 是什麼？
 [Jekyll](https://jekyllrb.com/) 是一個簡單的靜態網站生成器 (static site generator)，它是由 [Ruby](https://zh.wikipedia.org/zh-tw/Ruby) 編寫而成，將純文本文檔（Markdown, HMTL, CSS) 轉換成靜態網站。他很簡單直觀，適合初學者使用。網路上有滿多參考文章，和佈景主題可以選，跟著步驟做，很快就可以做出來了。最吸引人的地方是，Jekyll 可以和 Github Page 搭配，做出免費美觀的 Blog。
+
+## Github 是什麼？
+
+## 怎麼做？
+
