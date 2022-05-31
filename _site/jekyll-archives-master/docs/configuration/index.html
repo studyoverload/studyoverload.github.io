@@ -1,0 +1,377 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="Ta" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Configuration - Study Overload</title>
+<meta name="description" content="Gotta start somewhere. Learning Jekyll and Github.">
+
+
+  <meta name="author" content="Irene">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="Taiwan">
+<meta property="og:site_name" content="Study Overload">
+<meta property="og:title" content="Configuration">
+<meta property="og:url" content="http://localhost:4000/jekyll-archives-master/docs/configuration/">
+
+
+  <meta property="og:description" content="Gotta start somewhere. Learning Jekyll and Github.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/jekyll-archives-master/docs/configuration/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Irene",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Study Overload Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Study Overload
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="">About me</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      <h2 id="configuration">Configuration</h2>
+
+<p>Archives configuration is done in the site’s <code class="language-plaintext highlighter-rouge">_config.yml</code> file, under the <code class="language-plaintext highlighter-rouge">jekyll-archives</code> key.</p>
+
+<h3 id="default-configuration">Default configuration</h3>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">jekyll-archives</span><span class="pi">:</span>
+  <span class="na">enabled</span><span class="pi">:</span> <span class="pi">[]</span>
+  <span class="na">layout</span><span class="pi">:</span> <span class="s">archive</span>
+  <span class="na">permalinks</span><span class="pi">:</span>
+    <span class="na">year</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/:year/'</span>
+    <span class="na">month</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/:year/:month/'</span>
+    <span class="na">day</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/:year/:month/:day/'</span>
+    <span class="na">tag</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/tag/:name/'</span>
+    <span class="na">category</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/category/:name/'</span>
+</code></pre></div></div>
+
+<h3 id="configuration-options">Configuration options</h3>
+
+<h4 id="required-and-recommended-settings">Required and recommended settings</h4>
+<ul>
+  <li><a href="#enabled-archives">Enabled archives (<code class="language-plaintext highlighter-rouge">enabled</code>)</a></li>
+  <li><a href="#type-specific-layouts">Type-specific layouts (<code class="language-plaintext highlighter-rouge">layouts</code>)</a></li>
+</ul>
+
+<h4 id="optional-settings">Optional settings</h4>
+<ul>
+  <li><a href="#default-layout">Default layout (<code class="language-plaintext highlighter-rouge">layout</code>)</a></li>
+  <li><a href="#permalinks">Permalinks (<code class="language-plaintext highlighter-rouge">permalinks</code>)</a></li>
+  <li><a href="#slug-configuration">Slug configuration (<code class="language-plaintext highlighter-rouge">slug_mode</code>)</a></li>
+</ul>
+
+<hr />
+
+<h4 id="enabled-archives">Enabled archives</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Value type</th>
+      <th>Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">enabled</code></td>
+      <td>String or Array</td>
+      <td><code class="language-plaintext highlighter-rouge">'all'</code> or an array of any combination of <code class="language-plaintext highlighter-rouge">year</code>, <code class="language-plaintext highlighter-rouge">month</code>, <code class="language-plaintext highlighter-rouge">day</code>, <code class="language-plaintext highlighter-rouge">categories</code>, <code class="language-plaintext highlighter-rouge">tags</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="description">Description</h5>
+
+<p>This option sets which types of archives will be created. Must be set to an array of enabled archive types, or the string ‘all’ (to enable all archives).</p>
+
+<h5 id="sample-values">Sample values</h5>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">enabled</span><span class="pi">:</span> <span class="s">all</span>
+<span class="na">enabled</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">categories</span>
+<span class="na">enabled</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">year</span>
+  <span class="pi">-</span> <span class="s">month</span>
+  <span class="pi">-</span> <span class="s">tags</span>
+</code></pre></div></div>
+
+<hr />
+
+<h4 id="default-layout">Default layout</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Value type</th>
+      <th>Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">layout</code></td>
+      <td>String</td>
+      <td>The layout name of the default archive layout</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="description-1">Description</h5>
+
+<p>Sets the default layout to use if no type-specific layout (see <a href="#type-specific-layouts">Type-specific layouts</a> below) for an archive is specified.</p>
+
+<h5 id="sample-values-1">Sample values</h5>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">layout</span><span class="pi">:</span> <span class="s">archive</span>                  <span class="c1"># _layouts/archive.html</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">custom-archive-layout</span>    <span class="c1"># _layouts/custom-archive-layout.html</span>
+</code></pre></div></div>
+
+<hr />
+
+<h4 id="type-specific-layouts">Type-specific layouts</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Value type</th>
+      <th>Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">layouts</code></td>
+      <td>Map, String → String</td>
+      <td>A map of layout type (<code class="language-plaintext highlighter-rouge">year</code>, <code class="language-plaintext highlighter-rouge">month</code>, <code class="language-plaintext highlighter-rouge">day</code>, <code class="language-plaintext highlighter-rouge">category</code>, <code class="language-plaintext highlighter-rouge">tag</code>) to its archive name.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="description-2">Description</h5>
+
+<p>Maps archive types to the layout they will be rendered in. Not all types need to be specified; those without a specific layout will fall back to the default layout.</p>
+
+<h5 id="sample-values-2">Sample values</h5>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">layouts</span><span class="pi">:</span>
+  <span class="na">year</span><span class="pi">:</span> <span class="s">year-archive</span>
+  <span class="na">month</span><span class="pi">:</span> <span class="s">month-archive</span>
+  <span class="na">day</span><span class="pi">:</span> <span class="s">day-archive</span>
+  <span class="na">category</span><span class="pi">:</span> <span class="s">category-archive</span>
+  <span class="na">tag</span><span class="pi">:</span> <span class="s">tag-archive</span>
+</code></pre></div></div>
+
+<hr />
+
+<h4 id="permalinks">Permalinks</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Value type</th>
+      <th>Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">permalinks</code></td>
+      <td>Map, String → String</td>
+      <td>A map of layout type (<code class="language-plaintext highlighter-rouge">year</code>, <code class="language-plaintext highlighter-rouge">month</code>, <code class="language-plaintext highlighter-rouge">day</code>, <code class="language-plaintext highlighter-rouge">category</code>, <code class="language-plaintext highlighter-rouge">tag</code>) to its permalink format.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="description-3">Description</h5>
+
+<p>Maps archive types to the permalink format used for archive pages. The permalink style is the same as regular Jekyll posts and pages, but with different variables.</p>
+
+<p>These variables are:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">:year</code> for year archives</li>
+  <li><code class="language-plaintext highlighter-rouge">:year</code> and <code class="language-plaintext highlighter-rouge">:month</code> for month archives</li>
+  <li><code class="language-plaintext highlighter-rouge">:year</code>, <code class="language-plaintext highlighter-rouge">:month</code>, and <code class="language-plaintext highlighter-rouge">:day</code> for day archives</li>
+  <li><code class="language-plaintext highlighter-rouge">:name</code> for category and tag archives</li>
+</ul>
+
+<p><em>Note:</em> trailing slashes are required to create the archive as an <code class="language-plaintext highlighter-rouge">index.html</code> file of a directory.</p>
+
+<h5 id="sample-values-3">Sample values</h5>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">permalinks</span><span class="pi">:</span>
+  <span class="na">year</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/archives/year/:year/'</span>
+  <span class="na">month</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/archives/month/:year-:month/'</span>
+  <span class="na">tag</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/archives/tag/:name/'</span>
+</code></pre></div></div>
+
+<h4 id="slug-configuration">Slug Configuration</h4>
+
+<p>Archives of tags and categories are by default generated by <em>slugifying</em> the tag or category name.
+You can configure the result of this process by setting the <code class="language-plaintext highlighter-rouge">slug_mode</code> key to any of the
+<a href="https://jekyllrb.com/docs/liquid/filters/#options-for-the-slugify-filter">modes expected by Jekyll</a></p>
+
+<h5 id="sample-values-4">Sample values</h5>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">slug_mode</span><span class="pi">:</span> <span class="s">latin</span>
+</code></pre></div></div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Irene. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

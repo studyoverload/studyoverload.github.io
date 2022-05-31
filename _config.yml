@@ -276,12 +276,12 @@ compress_html:
     envs: development
 
 
-# Defaults
+# Defaults # Pages Front Matter
 defaults:
   # _posts
   - scope:
-      path: ""
-      type: posts
+      path: ""  # an empty string here means all files in the project
+      type: pages
     values:
       layout: single
       author_profile: true
@@ -289,3 +289,5 @@ defaults:
       comments: true
       share: true
       related: true
+
+
