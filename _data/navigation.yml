@@ -1,7 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+   #- title: "所有文章"
+     #url: /archive/
+  #- title: "Quick-Start Guide"
+    #url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +12,10 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+foo:
+  - title : "創站筆記"
+  - title : "無程式經驗，如何在GitHub用Jekyll建Blog (問題篇）"
+    url: /jekyll-github-start/
+  - title : "無程式經驗，如何在GitHub用Jekyll建Blog (設置篇）"
+    url: /jekyll-github-setup/
