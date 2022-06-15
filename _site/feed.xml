@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-15T21:16:38+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Study Overload</title><subtitle>Learner. Relator. Activator.</subtitle><author><name>Irene</name></author><entry><title type="html">如果重來，我會如何準備學測 (目標設定篇)</title><link href="http://localhost:4000/set-goal/" rel="alternate" type="text/html" title="如果重來，我會如何準備學測 (目標設定篇)" /><published>2022-06-10T00:00:00+08:00</published><updated>2022-06-10T00:00:00+08:00</updated><id>http://localhost:4000/set-goal</id><content type="html" xml:base="http://localhost:4000/set-goal/">&lt;p&gt;每年五六月會有滿多學長姐回到高中，向升高三的同學分享學測的準備心得。藉這個機會，我想聊聊當初我是怎麼準備，有哪些我希望能做得更好。這一系列心得會分成不同面向討論，第一篇是關於&lt;strong&gt;目標設定&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;center&gt;
-  My centered text.
-&lt;/center&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;This is my first level quoting with a citation.
-&lt;cite&gt;Joan Doe&lt;/cite&gt;
-&lt;a href=&quot;#link&quot; class=&quot;btn btn--success&quot;&gt;Button name&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This text is rendered in green.&lt;/p&gt;
-&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Notice:&lt;/strong&gt; This is an important info notice.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-15T22:38:01+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Study Overload</title><subtitle>Learner. Relator. Activator.</subtitle><author><name>Irene</name></author><entry><title type="html">如果重來，我會如何準備學測 (目標設定篇)</title><link href="http://localhost:4000/set-goal/" rel="alternate" type="text/html" title="如果重來，我會如何準備學測 (目標設定篇)" /><published>2022-06-10T00:00:00+08:00</published><updated>2022-06-10T00:00:00+08:00</updated><id>http://localhost:4000/set-goal</id><content type="html" xml:base="http://localhost:4000/set-goal/">&lt;p&gt;每年五六月會有滿多學長姐回到高中，向升高三的同學分享學測的準備心得。藉這個機會，我想聊聊當初我是怎麼準備，有哪些我希望能做得更好。這一系列心得會分成不同面向討論，第一篇是關於&lt;strong&gt;目標設定&lt;/strong&gt;。&lt;/p&gt;
 
 &lt;h2 id=&quot;為什麼從目標設定談起&quot;&gt;為什麼從目標設定談起？&lt;/h2&gt;
 
@@ -22,7 +10,7 @@
 
 &lt;figure&gt;&lt;center&gt;
   &lt;img src=&quot;/assets/images/set-goal.png&quot; alt=&quot;設立目標的重要性和如何設定目標&quot; /&gt;
-    &lt;figcaption&gt;漫無目標的生活，讓人無所適從。&lt;/figcaption&gt;
+    &lt;figcaption&gt;漫無目的的生活，讓人無所適從。&lt;/figcaption&gt;
 &lt;/center&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;如何設定目標&quot;&gt;如何設定目標？&lt;/h2&gt;
@@ -36,7 +24,8 @@
 
 &lt;p&gt;要設定合適的目標要考量的事情太多了，就是要從哪裡著手才好？我需要一個&lt;strong&gt;立足點&lt;/strong&gt;。&lt;/p&gt;
 
-&lt;h3 id=&quot;1️⃣-----從認識自己開始&quot;&gt;1️⃣     從認識自己開始&lt;/h3&gt;
+&lt;h3 id=&quot;1️⃣-從認識自己開始&quot;&gt;1️⃣ 從認識自己開始&lt;/h3&gt;
+
 &lt;p&gt;老話一句，做任何決定前都要先了解自己。目標設定是非常個人的事情，儘管你收集了許多資料、觀察同學們都做了什麼，終究還是回歸到自己。不論我在這篇文章說了什麼，先沈澱一下，想清楚或是和別人討論後再進行下一步，不要照單全收。（對沒錯，這是免責說明 😂）&lt;/p&gt;
 
 &lt;p&gt;認識自己是一生的課題。很多時候你覺得了解自己，但在某些情況下又發現好像不是那麼一回事。對於迷惘，可以拿一張紙，畫出四個象限如下：&lt;/p&gt;
@@ -45,34 +34,55 @@
 
 &lt;p&gt;這是周哈里窗理論（Johari Window），可以應用於盤點自己的個性、價值觀、喜歡/不喜歡，擅長/不擅長的事。哪些是大家都知道的，又有哪些是不為人知的，將它填上去。&lt;/p&gt;
 
-&lt;p&gt;接著請你的家人、朋友、師長回饋對自己的評價，了解你在他人的眼中是什麼形象，或許會有意外的收穫。那麼恭喜你將這些特質從「盲目我」拉近「開放我」的象限，對自己有更進一步的認識。這是一個能拉近彼此間的認知差異的好機會，校準自己的定位，想想你希望呈現什麼樣的自己在他人面前。&lt;/p&gt;
+&lt;p&gt;接著請你的家人、朋友、師長給予回饋，了解你在他人的眼中是什麼形象，將原本不知道的特質從「盲目我」拉近「開放我」的象限。藉由這個機會，校準自己的定位。你希望呈現什麼樣的自己在他人面前？目前你的形象和想像中有什麼差距？&lt;/p&gt;
 
-&lt;p&gt;最後是「未知我」，這需要不斷地探索、嘗試新事物，面臨新挑戰的時候，才會知道有什麼等著你發覺，能讓你說出「原來我在兩難的狀況下，我會選擇 xx ，犧牲了 xx ，有 xx 的優勢為我帶來新機會，這是 x 年前的我完全意想不到的事情呀！」&lt;/p&gt;
+&lt;p&gt;最後是「未知我」，這需要不斷地探索、嘗試新事物，面臨新挑戰的時候，才會知道有什麼等著你發覺，能讓你說出「原來我會選擇 xx ，犧牲了 xx ，有 xx 的優勢為我帶來新機會，這是 x 年前的我完全意想不到的事情呀！」&lt;/p&gt;
 
-&lt;p&gt;高中的我，透過社團活動，在團隊裡擔任不同的角色，更了解自己喜歡什麼、不喜歡什麼。像是在成果發表會的時候，在各個表演項目間需要有故事小劇場穿插（串場），在等待下一個節目開始前不會冷場。當時我就負責寫劇本，編了幾個劇情，既搞笑又能與節目有所連結。團隊夥伴的反應都滿好的，這就讓我了解到自己喜歡寫作，而且能夠配合別人的需求，產出相對不錯的成果。&lt;/p&gt;
+&lt;p&gt;我有兩個例子分享：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;高中參加社團活動，在團體裡擔任不同的角色：未知我-&amp;gt;開放我（眾人面前，探索學習）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p class=&quot;notice&quot;&gt;在成果發表會的時候，在各個表演項目間需要有故事小劇場穿插（串場），在等待下一個節目開始前不會冷場。
+當時我就負責寫劇本，編了幾個劇情，既搞笑又能與節目有所連結。團隊夥伴的反應都滿好的，這就讓我了解到自己喜歡寫作，而且能夠配合別人的需求，產出相對不錯的成果。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;老師請同學們寫互評，&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h3 id=&quot;以終為始&quot;&gt;以終為始&lt;/h3&gt;
-&lt;p&gt;我想要分享一個觀念「以終為始」(begin with the end in mind)，先了解你的終點在哪裡，再開始執行。&lt;/p&gt;
+&lt;p&gt;我想要分享一個觀念「以終為始」(begin with the end in mind)，先了解你的終點在哪裡，再開始執行。問自己以下問題：&lt;/p&gt;
 
-&lt;p&gt;描述一下你夢想中的生活是什麼樣的呢？
-有人過著你的夢想生活嗎？他是誰？他做了哪些對的事，成就現在的樣子？
-你覺得自己的個性是如何？問問最親近的親友們，他們覺得是如何？有一樣嗎？
-當你知道自己是怎樣的人，以及要什麼、不要什麼的時候，就不會一直想要成為別人希望你變成的樣子，也不需要跟他人比較，因為你連追求自己想要的，時間都不夠了，哪有時間管別人？&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;你的理想生活是什麼樣子？你目前要怎麼做才能達到目標？&lt;/li&gt;
+  &lt;li&gt;別人是如何達到你想要的生活？&lt;/li&gt;
+  &lt;li&gt;你要什麼？不要什麼？專注在能幫助你的事物
+*&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;結語&quot;&gt;結語&lt;/h2&gt;</content><author><name>Irene</name></author><category term="Study" /><category term="Mindset" /><summary type="html">每年五六月會有滿多學長姐回到高中，向升高三的同學分享學測的準備心得。藉這個機會，我想聊聊當初我是怎麼準備，有哪些我希望能做得更好。這一系列心得會分成不同面向討論，第一篇是關於目標設定。</summary></entry><entry><title type="html">無程式經驗，如何在GitHub用Jekyll建Blog (設置篇）</title><link href="http://localhost:4000/jekyll-github-setup/" rel="alternate" type="text/html" title="無程式經驗，如何在GitHub用Jekyll建Blog (設置篇）" /><published>2022-06-08T00:00:00+08:00</published><updated>2022-06-08T00:00:00+08:00</updated><id>http://localhost:4000/jekyll-github-setup</id><content type="html" xml:base="http://localhost:4000/jekyll-github-setup/">&lt;p&gt;本文寫給毫無程式經驗，想要用 Jekyll 在 GitHub 建 Blog 的新手，內含步驟文和實踐心得。&lt;/p&gt;
 
 &lt;h2 id=&quot;部落格之始&quot;&gt;部落格之始&lt;/h2&gt;
 &lt;p&gt;如果你想要建部落格，有滿多人會從現有的部落格平台（痞客邦、Medium）開始，只要註冊就可以開始發布內容了。&lt;/p&gt;
 
-&lt;p&gt;如果你想要擁有網站的自主權又不想碰太多程式編寫的部分，可以選擇 &lt;a href=&quot;https://wordpress.org&quot;&gt;Wordpress.org&lt;/a&gt; ，眾多外掛任你挑，掌握SEO數據和資料庫。網路上有很多教學文，註冊後購買主機 (hosting) 和域名 (domain)，就建好了。我另一個部落格也是用 Wordpress 建置，有興趣的話，也許之後可以寫教學心得文。&lt;/p&gt;
+&lt;p&gt;如果你想要擁有網站的自主權又不想碰太多程式編寫的部分，可以選擇 &lt;a href=&quot;https://wordpress.org&quot;&gt;Wordpress.org&lt;/a&gt; ，眾多外掛任你挑，掌握SEO數據和資料庫。&lt;/p&gt;
 
-&lt;p&gt;如果你想要開始學寫程式，建立自己的 GitHub Page 是滿好的開始，可以紀錄學習的過程，也能夠&lt;strong&gt;為其他有相似問題的人提供解法&lt;/strong&gt;。我個人而言，除了想要練習寫文章、學程式之外，更大的原因是不想花錢買主機和個人網域，就開始了簡單設置個人 Blog 的念頭。其實我連用 Wordpress 架的另一個網站也是用 GitHub Page 的方式，沒有去買主機。&lt;/p&gt;
+&lt;p&gt;網路上有很多教學文，註冊後購買主機 (hosting) 和域名 (domain)，就建好了。我另一個部落格也是用 Wordpress 建置，有興趣的話，也許之後可以寫教學心得文。&lt;/p&gt;
+
+&lt;p&gt;如果你想要開始學寫程式，建立自己的 GitHub Page 是滿好的開始，可以紀錄學習的過程，也能夠&lt;strong&gt;為其他有相似問題的人提供解法&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;我個人而言，除了想要練習寫文章、學程式之外，更大的原因是不想花錢買主機和個人網域，就開始了簡單設置個人 Blog 的念頭。其實我連用 Wordpress 架的另一個網站也是用 GitHub Page 的方式，沒有去買主機。&lt;/p&gt;
 
 &lt;h2 id=&quot;jekyll-是什麼&quot;&gt;Jekyll 是什麼？&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; 是一個簡單的靜態網站生成器 (static site generator)，它是由 &lt;a href=&quot;https://zh.wikipedia.org/zh-tw/Ruby&quot;&gt;Ruby&lt;/a&gt; 編寫而成，將純文本文檔（Markdown, HMTL, CSS) 轉換成靜態網站。他很簡單直觀，適合初學者使用。網路上有滿多參考文章，和佈景主題可以選，跟著步驟做，很快就可以做出來了。最吸引人的地方是，Jekyll 可以和 GitHub Page 搭配，做出免費美觀的網頁。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; 是一個簡單的靜態網站生成器 (static site generator)，它是由 &lt;a href=&quot;https://zh.wikipedia.org/zh-tw/Ruby&quot;&gt;Ruby&lt;/a&gt; 編寫而成，將純文本文檔（Markdown, HMTL, CSS) 轉換成靜態網站。他很簡單直觀，適合初學者使用。&lt;/p&gt;
+
+&lt;p&gt;網路上有滿多參考文章，和佈景主題可以選，跟著步驟做，很快就可以做出來了。最吸引人的地方是，Jekyll 可以和 GitHub Page 搭配，做出免費美觀的網頁。&lt;/p&gt;
 
 &lt;h2 id=&quot;github-是什麼&quot;&gt;Github 是什麼？&lt;/h2&gt;
-&lt;p&gt;GitHub 是公開的原始碼代管平台，你可以上傳專案，紀錄自己寫過什麼程式、對別人的開發做了什麼貢獻。通常工程師要投履歷的時候都會附上自己的 GitHub 頁面，展現過往的參與和 side projects。概念就像是作品集的倉庫，你可以看所有公開的專案，也可以社群互動。像這次使用的 Jekyll 模板就是從開發者的 GitHub 下載，根據它的說明安裝，一步步設置。&lt;/p&gt;
+&lt;p&gt;GitHub 是公開的原始碼代管平台，你可以上傳專案，紀錄自己寫過什麼程式、對別人的開發做了什麼貢獻。通常工程師要投履歷的時候都會附上自己的 GitHub 頁面，展現過往的參與和 side projects。&lt;/p&gt;
+
+&lt;p&gt;概念就像是作品集的倉庫，你可以看所有公開的專案，也可以社群互動。像這次使用的 Jekyll 模板就是從開發者的 GitHub 下載，根據它的說明安裝，一步步設置。&lt;/p&gt;
 
 &lt;h2 id=&quot;怎麼做&quot;&gt;怎麼做？&lt;/h2&gt;
 &lt;p&gt;如同我在 &lt;a href=&quot;/jekyll-github-start/&quot;&gt;問題篇&lt;/a&gt; 所說的，建議你參考官方教學，通常那是最直觀的方法。這裡不會太多手把手的教學，僅分享我的作法和心得。&lt;/p&gt;
@@ -89,6 +99,7 @@
   &lt;li&gt;建議裝 rvm 管理切換成不同版本的 ruby&lt;/li&gt;
   &lt;li&gt;裝 RubyGems&lt;/li&gt;
   &lt;li&gt;裝 GCC, Make&lt;/li&gt;
+  &lt;li&gt;Jekyll 和 bundler&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;當初我光是裝這幾個就卡關好幾個小時。Ruby 一直出現錯誤訊息，翻了論壇才知道版本不能太高。翻了很久找不到要如何下載 GCC，結果在 &lt;a href=&quot;https://jekyllrb.com/docs/troubleshooting/&quot;&gt;Troubleshooting&lt;/a&gt; 這裡就很清楚的寫 macOS 建議裝 xcode 裡面會附 GCC，不用另外找下載點。🤦  (再次強調看官方文件的重要性)&lt;/p&gt;
@@ -102,7 +113,9 @@
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;找你喜歡的-jeykll-theme&quot;&gt;找你喜歡的 Jeykll Theme&lt;/h3&gt;
-&lt;p&gt;你可以自己從頭建網站設計和後台，或是直接套用現成版型再慢慢修。這裡有一些&lt;a href=&quot;https://jekyllrb.com/docs/themes/&quot;&gt;模板網站&lt;/a&gt;，提供參考。原則上選評分星星高、比較少錯誤的模板。像是我選的 &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;Minimal Mistakes&lt;/a&gt; 廣受好評又幾乎沒有 bug，對初學者來說相當友善。有些模板外觀滿好看的，但其實簡單模板也有發揮空間。之後都還可以摸索，把網站改成你理想的樣子。&lt;/p&gt;
+&lt;p&gt;你可以自己從頭建網站設計和後台，或是直接套用現成版型再慢慢修。這裡有一些&lt;a href=&quot;https://jekyllrb.com/docs/themes/&quot;&gt;模板網站&lt;/a&gt;，提供參考。原則上選評分星星高、比較少錯誤的模板。&lt;/p&gt;
+
+&lt;p&gt;像是我選的 &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;Minimal Mistakes&lt;/a&gt; 廣受好評又幾乎沒有 bug，對初學者來說相當友善。有些模板外觀滿好看的，但其實簡單模板也有發揮空間。之後都還可以摸索，把網站改成你理想的樣子。&lt;/p&gt;
 
 &lt;p&gt;套用方式和相關設定都在開發者的指南 (Guide)，花點時間讀，每次做一小部分，或是搜尋其他人如何修改版型，也能得到一點靈感。我也還在持續修改中…&lt;/p&gt;
 
@@ -114,7 +127,9 @@
   &lt;li&gt;下載 GitHub Desktop，將資料上傳到 Repository&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;我是使用第二種方法，因為我不想每次新增文章、修改網站外觀的時候，都要登入 GitHub 網頁帳戶（有點懶），將整個資料夾重新上傳（忘了哪些有修改，乾脆整個傳）。 GitHub Desktop 的好處是：會自動紀錄你修改的內容，上傳的時候會有版本紀錄。萬一不喜歡新上傳版本，也可以回復到前一本的狀態。&lt;/p&gt;
+&lt;p&gt;我是使用第二種方法，因為我不想每次新增文章、修改網站外觀的時候，都要登入 GitHub 網頁帳戶（有點懶），將整個資料夾重新上傳（忘了哪些有修改，乾脆整個傳）。&lt;/p&gt;
+
+&lt;p&gt;GitHub Desktop 的好處是：會自動紀錄你修改的內容，上傳的時候會有版本紀錄。萬一不喜歡新上傳版本，也可以回復到前一本的狀態。&lt;/p&gt;
 
 &lt;h2 id=&quot;結語&quot;&gt;結語&lt;/h2&gt;
 &lt;p&gt;如果你想學程式，強烈建議在部落發布寫學習筆記，&lt;a href=&quot;https://dotblogs.com.tw/hatelove/2017/03/26/why-engineers-should-keep-blogging&quot;&gt;這篇文章&lt;/a&gt;點出了許多好處。就算你沒有要當工程師，只是好玩，寫部落格這件事也是保持學習動能的方法。&lt;/p&gt;
@@ -125,15 +140,21 @@
 &lt;p&gt;教學步驟文請看&lt;a href=&quot;/jekyll-github-setup/&quot;&gt;這篇&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h2 id=&quot;在開始之前&quot;&gt;在開始之前&lt;/h2&gt;
-&lt;p&gt;我想在閱讀這篇文章的讀者，大多數已經決定要在 GitHub 用 Jekyll 建 Blog了，或許你已經讀過一輪 Google 搜尋 排名第一頁的所有文章，或是在做的過程中遇到一些問題。有幾件事情是我希望在開始之前就知道的，可以幫助我有效率的解決途中的 bug，和培養學習心態。&lt;/p&gt;
+&lt;p&gt;我想在閱讀這篇文章的讀者，大多數已經決定要在 GitHub 用 Jekyll 建 Blog了，或許你已經讀過一輪 Google 搜尋 排名第一頁的所有文章，或是在做的過程中遇到一些問題。&lt;/p&gt;
+
+&lt;p&gt;有幾件事情是我希望在開始之前就知道的，可以幫助我有效率的解決途中的 bug，和培養學習心態。&lt;/p&gt;
 
 &lt;h3 id=&quot;一參考官方教學指南&quot;&gt;一、參考官方教學指南&lt;/h3&gt;
 &lt;p&gt;我知道看原文感覺很麻煩，但這是最貼近開發者思維的方法。如果要別人使用他們的產品，教學說明要夠完整才行。其他工程師撰寫的中文教學文也是參考官方文件，加上他們實踐後的想法而來的。關於安裝和設置的教學，都寫得滿清楚的，使用的英文不會很複雜，就當作練習讀英文的開始也不錯。&lt;/p&gt;
 
-&lt;p&gt;可以先從這些開始： &lt;a href=&quot;https://jekyllrb.com/docs/installation&quot;&gt;Jeykll 的官方設置文&lt;/a&gt;、&lt;a href=&quot;https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll&quot;&gt;GitHub相關教學文&lt;/a&gt;，以及&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide&quot;&gt;我使用的 Jekyll Theme 設置指南&lt;/a&gt;。當初我沒有按照官網的說明，而是選了網路分享的中文教學跟著做，遇到問題後，我開始搜尋其他人的作法，但這讓我充滿困惑。每個工程師都有他自己做這些步驟的理由，但中途切換到不同的教學文，讓我不知道該從何做起才不會衝突。身為程式初學者，我無法判斷好壞，我只知道我的東西跑不出來。下次要做別的東西，我就學會要先看官方文件，再參考其他人的想法。&lt;/p&gt;
+&lt;p&gt;可以先從這些開始： &lt;a href=&quot;https://jekyllrb.com/docs/installation&quot;&gt;Jeykll 的官方設置文&lt;/a&gt;、&lt;a href=&quot;https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll&quot;&gt;GitHub相關教學文&lt;/a&gt;，以及&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide&quot;&gt;我使用的 Jekyll Theme 設置指南&lt;/a&gt;。當初我沒有按照官網的說明，而是選了網路分享的中文教學跟著做，遇到問題後，我開始搜尋其他人的作法，但這讓我充滿困惑。每個工程師都有他自己做這些步驟的理由，但中途切換到不同的教學文，讓我不知道該從何做起才不會衝突。&lt;/p&gt;
+
+&lt;p&gt;身為程式初學者，我無法判斷好壞，我只知道我的東西跑不出來。下次要做別的東西，我就學會要先看官方文件，再參考其他人的想法。&lt;/p&gt;
 
 &lt;h3 id=&quot;二心態建立&quot;&gt;二、心態建立&lt;/h3&gt;
-&lt;p&gt;就算有步驟文教學，有很大的機率，會有 bug。根據每個人系統不同（Windows、macOS)、安裝的程式版本內容差異，甚至是少一個空格或拼字錯誤，都有可能會花上許多時間修正。保持耐心，仔細閱讀錯誤訊息，若有不理解之處，可以參考 &lt;a href=&quot;https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites&quot;&gt;Troubleshooting Jekyll build errors for Github&lt;/a&gt; 。如果找不到的話，再丟上 Google 搜尋，或是請有程式經驗的朋友幫忙看看。如果還是無法解決，可以在 &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll論壇&lt;/a&gt;、 &lt;a href=&quot;https://stackoverflow.com/&quot;&gt;stackoverflow&lt;/a&gt; 發問。&lt;/p&gt;
+&lt;p&gt;就算有步驟文教學，有很大的機率，會有 bug。根據每個人系統不同（Windows、macOS)、安裝的程式版本內容差異，甚至是少一個空格或拼字錯誤，都有可能會花上許多時間修正。&lt;/p&gt;
+
+&lt;p&gt;保持耐心，仔細閱讀錯誤訊息，若有不理解之處，可以參考 &lt;a href=&quot;https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites&quot;&gt;Troubleshooting Jekyll build errors for Github&lt;/a&gt; 。如果找不到的話，再丟上 Google 搜尋，或是請有程式經驗的朋友幫忙看看。如果還是無法解決，可以在 &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll論壇&lt;/a&gt;、 &lt;a href=&quot;https://stackoverflow.com/&quot;&gt;stackoverflow&lt;/a&gt; 發問。&lt;/p&gt;
 
 &lt;p&gt;提問的時候，包含這幾個部分，會讓人比較了解目前的狀況：&lt;/p&gt;
 &lt;ul&gt;
@@ -149,7 +170,9 @@
 
 &lt;p&gt;對於初學者來說，看到一堆程式碼和落落長的英文教學，頭就痛了起來。儘管可以跟著教學文的步驟做，但通常這些都是有經驗的工程師所寫的文章，內容比較簡略，有許多基本的用詞還是需要自己另外學習。筆記下來，找到一些可以學習的方向。&lt;/p&gt;
 
-&lt;p&gt;一邊做，一邊紀錄所學，也是加深記憶和提升學習效果的方法。如果你有考慮發布到網路上，不需要去想說有沒有人看，寫得完不完整，這些可能會讓你感到焦慮，失去初衷。這是給自己的筆記，如果能順便幫助到其他人也很好。況且，初學者的優勢在於什麼都不懂，能夠同理別人的基礎問題，幫助其他初學者從零開始。舉一個簡單的指令為例：&lt;/p&gt;
+&lt;p&gt;一邊做，一邊紀錄所學，也是加深記憶和提升學習效果的方法。如果你有考慮發布到網路上，不需要去想說有沒有人看，寫得完不完整，這些可能會讓你感到焦慮，失去初衷。&lt;/p&gt;
+
+&lt;p&gt;這是給自己的筆記，如果能順便幫助到其他人也很好。況且，初學者的優勢在於什麼都不懂，能夠同理別人的基礎問題，幫助其他初學者從零開始。舉一個簡單的指令為例：&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;進到本機的 blog 資料夾，執行 bundle
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -164,7 +187,9 @@
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd&lt;/code&gt;: 切換目錄；&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle&lt;/code&gt;: 把以上的東西打包起來&lt;/p&gt;
 
-&lt;p&gt;不瞞你說，我幾乎看完了關於如何用 Jekyll 模板套用在 GitHub 的中文文章，按照裡面的步驟做，還是滿頭問號，花了至少 8小時在 setting 上面，無法順利跑出程式碼。不知道為什麼，在終端機  (terminal) 裡面跑的時候，一直出現錯誤 (Error)。於是我把顯示為「錯誤訊息」的內容搜尋一遍，又翻了一堆英文教學和論壇，把每個人的解法複製貼上，一直試到解決為止。&lt;/p&gt;
+&lt;p&gt;不瞞你說，我幾乎看完了關於如何用 Jekyll 模板套用在 GitHub 的中文文章，按照裡面的步驟做，還是滿頭問號，花了至少 8小時在 setting 上面，無法順利跑出程式碼。&lt;/p&gt;
+
+&lt;p&gt;不知道為什麼，在終端機  (terminal) 裡面跑的時候，一直出現錯誤 (Error)。於是我把顯示為「錯誤訊息」的內容搜尋一遍，又翻了一堆英文教學和論壇，把每個人的解法複製貼上，一直試到解決為止。&lt;/p&gt;
 
 &lt;p&gt;這可以說是最土法煉鋼的方式，因為我不懂終端機的常用指令，也不了解要如何 debug。我就把這些錯誤訊息截圖下來，反覆測試「解除安裝、重新安裝、設定不同版本、在不同路徑下指令」，一個個試這些看不懂的指令，最後找出了規律，順利發布在我的 github.io 頁面。&lt;/p&gt;
 

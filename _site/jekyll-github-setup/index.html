@@ -252,15 +252,23 @@
 <h2 id="部落格之始">部落格之始</h2>
 <p>如果你想要建部落格，有滿多人會從現有的部落格平台（痞客邦、Medium）開始，只要註冊就可以開始發布內容了。</p>
 
-<p>如果你想要擁有網站的自主權又不想碰太多程式編寫的部分，可以選擇 <a href="https://wordpress.org">Wordpress.org</a> ，眾多外掛任你挑，掌握SEO數據和資料庫。網路上有很多教學文，註冊後購買主機 (hosting) 和域名 (domain)，就建好了。我另一個部落格也是用 Wordpress 建置，有興趣的話，也許之後可以寫教學心得文。</p>
+<p>如果你想要擁有網站的自主權又不想碰太多程式編寫的部分，可以選擇 <a href="https://wordpress.org">Wordpress.org</a> ，眾多外掛任你挑，掌握SEO數據和資料庫。</p>
 
-<p>如果你想要開始學寫程式，建立自己的 GitHub Page 是滿好的開始，可以紀錄學習的過程，也能夠<strong>為其他有相似問題的人提供解法</strong>。我個人而言，除了想要練習寫文章、學程式之外，更大的原因是不想花錢買主機和個人網域，就開始了簡單設置個人 Blog 的念頭。其實我連用 Wordpress 架的另一個網站也是用 GitHub Page 的方式，沒有去買主機。</p>
+<p>網路上有很多教學文，註冊後購買主機 (hosting) 和域名 (domain)，就建好了。我另一個部落格也是用 Wordpress 建置，有興趣的話，也許之後可以寫教學心得文。</p>
+
+<p>如果你想要開始學寫程式，建立自己的 GitHub Page 是滿好的開始，可以紀錄學習的過程，也能夠<strong>為其他有相似問題的人提供解法</strong>。</p>
+
+<p>我個人而言，除了想要練習寫文章、學程式之外，更大的原因是不想花錢買主機和個人網域，就開始了簡單設置個人 Blog 的念頭。其實我連用 Wordpress 架的另一個網站也是用 GitHub Page 的方式，沒有去買主機。</p>
 
 <h2 id="jekyll-是什麼">Jekyll 是什麼？</h2>
-<p><a href="https://jekyllrb.com/">Jekyll</a> 是一個簡單的靜態網站生成器 (static site generator)，它是由 <a href="https://zh.wikipedia.org/zh-tw/Ruby">Ruby</a> 編寫而成，將純文本文檔（Markdown, HMTL, CSS) 轉換成靜態網站。他很簡單直觀，適合初學者使用。網路上有滿多參考文章，和佈景主題可以選，跟著步驟做，很快就可以做出來了。最吸引人的地方是，Jekyll 可以和 GitHub Page 搭配，做出免費美觀的網頁。</p>
+<p><a href="https://jekyllrb.com/">Jekyll</a> 是一個簡單的靜態網站生成器 (static site generator)，它是由 <a href="https://zh.wikipedia.org/zh-tw/Ruby">Ruby</a> 編寫而成，將純文本文檔（Markdown, HMTL, CSS) 轉換成靜態網站。他很簡單直觀，適合初學者使用。</p>
+
+<p>網路上有滿多參考文章，和佈景主題可以選，跟著步驟做，很快就可以做出來了。最吸引人的地方是，Jekyll 可以和 GitHub Page 搭配，做出免費美觀的網頁。</p>
 
 <h2 id="github-是什麼">Github 是什麼？</h2>
-<p>GitHub 是公開的原始碼代管平台，你可以上傳專案，紀錄自己寫過什麼程式、對別人的開發做了什麼貢獻。通常工程師要投履歷的時候都會附上自己的 GitHub 頁面，展現過往的參與和 side projects。概念就像是作品集的倉庫，你可以看所有公開的專案，也可以社群互動。像這次使用的 Jekyll 模板就是從開發者的 GitHub 下載，根據它的說明安裝，一步步設置。</p>
+<p>GitHub 是公開的原始碼代管平台，你可以上傳專案，紀錄自己寫過什麼程式、對別人的開發做了什麼貢獻。通常工程師要投履歷的時候都會附上自己的 GitHub 頁面，展現過往的參與和 side projects。</p>
+
+<p>概念就像是作品集的倉庫，你可以看所有公開的專案，也可以社群互動。像這次使用的 Jekyll 模板就是從開發者的 GitHub 下載，根據它的說明安裝，一步步設置。</p>
 
 <h2 id="怎麼做">怎麼做？</h2>
 <p>如同我在 <a href="/jekyll-github-start/">問題篇</a> 所說的，建議你參考官方教學，通常那是最直觀的方法。這裡不會太多手把手的教學，僅分享我的作法和心得。</p>
@@ -277,6 +285,7 @@
   <li>建議裝 rvm 管理切換成不同版本的 ruby</li>
   <li>裝 RubyGems</li>
   <li>裝 GCC, Make</li>
+  <li>Jekyll 和 bundler</li>
 </ul>
 
 <p>當初我光是裝這幾個就卡關好幾個小時。Ruby 一直出現錯誤訊息，翻了論壇才知道版本不能太高。翻了很久找不到要如何下載 GCC，結果在 <a href="https://jekyllrb.com/docs/troubleshooting/">Troubleshooting</a> 這裡就很清楚的寫 macOS 建議裝 xcode 裡面會附 GCC，不用另外找下載點。🤦  (再次強調看官方文件的重要性)</p>
@@ -290,7 +299,9 @@
 </ol>
 
 <h3 id="找你喜歡的-jeykll-theme">找你喜歡的 Jeykll Theme</h3>
-<p>你可以自己從頭建網站設計和後台，或是直接套用現成版型再慢慢修。這裡有一些<a href="https://jekyllrb.com/docs/themes/">模板網站</a>，提供參考。原則上選評分星星高、比較少錯誤的模板。像是我選的 <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a> 廣受好評又幾乎沒有 bug，對初學者來說相當友善。有些模板外觀滿好看的，但其實簡單模板也有發揮空間。之後都還可以摸索，把網站改成你理想的樣子。</p>
+<p>你可以自己從頭建網站設計和後台，或是直接套用現成版型再慢慢修。這裡有一些<a href="https://jekyllrb.com/docs/themes/">模板網站</a>，提供參考。原則上選評分星星高、比較少錯誤的模板。</p>
+
+<p>像是我選的 <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a> 廣受好評又幾乎沒有 bug，對初學者來說相當友善。有些模板外觀滿好看的，但其實簡單模板也有發揮空間。之後都還可以摸索，把網站改成你理想的樣子。</p>
 
 <p>套用方式和相關設定都在開發者的指南 (Guide)，花點時間讀，每次做一小部分，或是搜尋其他人如何修改版型，也能得到一點靈感。我也還在持續修改中…</p>
 
@@ -302,7 +313,9 @@
   <li>下載 GitHub Desktop，將資料上傳到 Repository</li>
 </ul>
 
-<p>我是使用第二種方法，因為我不想每次新增文章、修改網站外觀的時候，都要登入 GitHub 網頁帳戶（有點懶），將整個資料夾重新上傳（忘了哪些有修改，乾脆整個傳）。 GitHub Desktop 的好處是：會自動紀錄你修改的內容，上傳的時候會有版本紀錄。萬一不喜歡新上傳版本，也可以回復到前一本的狀態。</p>
+<p>我是使用第二種方法，因為我不想每次新增文章、修改網站外觀的時候，都要登入 GitHub 網頁帳戶（有點懶），將整個資料夾重新上傳（忘了哪些有修改，乾脆整個傳）。</p>
+
+<p>GitHub Desktop 的好處是：會自動紀錄你修改的內容，上傳的時候會有版本紀錄。萬一不喜歡新上傳版本，也可以回復到前一本的狀態。</p>
 
 <h2 id="結語">結語</h2>
 <p>如果你想學程式，強烈建議在部落發布寫學習筆記，<a href="https://dotblogs.com.tw/hatelove/2017/03/26/why-engineers-should-keep-blogging">這篇文章</a>點出了許多好處。就算你沒有要當工程師，只是好玩，寫部落格這件事也是保持學習動能的方法。</p>
@@ -362,6 +375,68 @@
     
   </article>
 
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images#%20path%20of%20fallback%20teaser%20image,%20e.g.%20%22/assets/images/500x300.png%22" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/set-goal/" rel="permalink">如果重來，我會如何準備學測 (目標設定篇)
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">每年五六月會有滿多學長姐回到高中，向升高三的同學分享學測的準備心得。藉這個機會，我想聊聊當初我是怎麼準備，有哪些我希望能做得更好。這一系列心得會分成不同面向討論，第一篇是關於目標設定。
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images#%20path%20of%20fallback%20teaser%20image,%20e.g.%20%22/assets/images/500x300.png%22" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/jekyll-github-start/" rel="permalink">無程式經驗，如何在GitHub用Jekyll建Blog (問題篇）
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">本文寫給毫無程式經驗，想要用 Jekyll 在 GitHub 建 Blog 的新手，內含我如何參考網路教學文和問題解決的心得。
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
   
   
 </div>
