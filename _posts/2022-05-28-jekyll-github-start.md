@@ -1,14 +1,13 @@
 ---
 title: "無程式經驗，如何在GitHub用Jekyll建Blog (問題篇）"
 date: 2022-05-28
+layout: single
 toc: true
 toc_label: "目錄"
-
 tags:
  - GitHub Pages
  - Jekyll
  - Blog
- 
 header:
   overlay_color: "#015"
   overlay_filter: "0.7"
