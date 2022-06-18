@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Irene"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/author.png"
   bio              : "Learner. Relator. Activator. "
   location         : "Taiwan"
   email            :

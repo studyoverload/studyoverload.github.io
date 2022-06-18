@@ -55,16 +55,15 @@ related: true
 * 建議裝 rvm 管理切換成不同版本的 ruby
 * 裝 RubyGems
 * 裝 GCC, Make
-* Jekyll 和 bundler
 
 當初我光是裝這幾個就卡關好幾個小時。Ruby 一直出現錯誤訊息，翻了論壇才知道版本不能太高。翻了很久找不到要如何下載 GCC，結果在 [Troubleshooting](https://jekyllrb.com/docs/troubleshooting/) 這裡就很清楚的寫 macOS 建議裝 xcode 裡面會附 GCC，不用另外找下載點。🤦  (再次強調看官方文件的重要性)
 
 
-1. 都安裝好了，就在終端機輸入 `gem install jekyll bundler` 
+1. 最後，在終端機輸入 `gem install jekyll bundler` 安裝
 2. 創造存取部落格文件資料夾（例如：路徑為本機的 myblog 資料夾)，輸入 `jekyll new myblog`
 3. 切換目錄到你的資料夾，輸入 `cd myblog`
 4. 建立網站且可以在本地主機瀏覽 (local server)，輸入 `bundle exec jekyll serve`
-5. 就可以在瀏覽器輸入 `https;//localhost:4000` 預覽你的網站囉
+5. 就可以在瀏覽器輸入 `https://localhost:4000` 預覽你的網站囉
 
 ### 找你喜歡的 Jeykll Theme
 你可以自己從頭建網站設計和後台，或是直接套用現成版型再慢慢修。這裡有一些[模板網站](https://jekyllrb.com/docs/themes/)，提供參考。原則上選評分星星高、比較少錯誤的模板。
@@ -81,11 +80,11 @@ related: true
 
 我是使用第二種方法，因為我不想每次新增文章、修改網站外觀的時候，都要登入 GitHub 網頁帳戶（有點懶），將整個資料夾重新上傳（忘了哪些有修改，乾脆整個傳）。 
 
-GitHub Desktop 的好處是：會自動紀錄你修改的內容，上傳的時候會有版本紀錄。萬一不喜歡新上傳版本，也可以回復到前一本的狀態。
+GitHub Desktop 的好處是：會自動紀錄你修改的內容，上傳的時候會有版本紀錄。萬一不喜歡新上傳版本，也可以回復到前一版的狀態。
 
 
 ## 結語
-如果你想學程式，強烈建議在部落發布寫學習筆記，[這篇文章](https://dotblogs.com.tw/hatelove/2017/03/26/why-engineers-should-keep-blogging)點出了許多好處。就算你沒有要當工程師，只是好玩，寫部落格這件事也是保持學習動能的方法。
+如果你想學程式，就在部落格發布寫學習筆記吧，[這篇文章](https://dotblogs.com.tw/hatelove/2017/03/26/why-engineers-should-keep-blogging)點出了許多好處。就算你沒有要當工程師，只是好玩，寫部落格這件事也是保持學習動能的方法。
 
 無論什麼原因，你點進了這篇文章，看到這裡，就去建自己的部落格吧！無論是 Medium、Wordpress、Jekyll 什麼方式都好，寫什麼都好，生活感悟、職場心得、分享知識等，你獲得的好處比想像中的多太多了。
 （一年後再回來告訴你好處有什麼 😅)
